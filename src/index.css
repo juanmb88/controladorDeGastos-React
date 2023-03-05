@@ -425,18 +425,20 @@ body .modal {
   }
 
   @media (max-width: 400px) {
-  
-      .gasto{
-        display: grid;
-        grid-template-columns: repeat(3,75%);
-        justify-content: start;
-      }
+    
+    .gasto{
+      display: grid;
+      grid-template-columns: repeat(3,75%);
+      justify-content: start;
+    }
+    .formulario{
+      margin: 3rem;
+    }
       .campo{
-        max-width: auto;
-        margin-left: 3rem;
-        margin-right: 9.5rem;
+        margin-left: 2rem;
+        margin-right: 1.5rem;
         } 
-      
+        
       .contenido-gasto{
         gap: 3rem;
       }
@@ -449,11 +451,8 @@ body .modal {
 
       }
       .botonAzulModal{
-        max-width: 200px;
-        margin: 8rem;
-      }
-      .formulario{
-        margin: 3rem;
+        max-width: auto;
+        margin: 2rem;
       }
     }
   
