@@ -99,7 +99,7 @@ const Modal = ({setModal,animarModal,setAnimarModal,guardarGasto, gastoEditar, s
                  
                 </div>
 
-                <input type = "submit" value = {gastoEditar.nombre ? 'Guardar Cambios' : 'Añadir Gasto'} />
+                <input className='botonAzulModal' type = "submit" value = {gastoEditar.nombre ? 'Guardar Cambios' : 'Añadir Gasto'} />
             </form>
     </div>
   )
